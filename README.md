@@ -28,7 +28,6 @@ python train_teacher.py --gpu 0 --imb_type exp --imb_factor 0.01 --loss_type CE
 2. Train the student model with BKD loss
 ```
 python train_student.py --gpu 0 --imb_type exp --imb_factor 0.01 --loss_type BKD --model /path/to/the/teacher/model/
-
 ```
 
 ### Acknowledgement
