@@ -214,8 +214,6 @@ def main_worker(gpu, ngpus_per_node, args):
     for epoch in range(args.start_epoch, args.epochs):
         adjust_learning_rate(optimizer, epoch, args)
 
-        print(args.train_rule)
-
         if args.train_rule == 'None':
             train_sampler = None
             per_cls_weights = None
@@ -448,7 +446,7 @@ def load_network(network, args):
     if args.model_dir:
         save_path = os.path.join(args.model_dir, 'ckpt.pth.tar')
     print(save_path)
-    network = nn.DataParallel(network)
+    # network = nn.DataParallel(network)
     network.load_state_dict(torch.load(save_path, map_location='cuda:0')['state_dict'])
     return network
 
