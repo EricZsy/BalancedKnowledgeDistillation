@@ -6,6 +6,7 @@ Implemention of
 
 Shaoyu Zhang, Chen Chen, Xiyuan Hu and Silong Peng
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 ### Requirements 
 * Python 3
@@ -39,3 +40,5 @@ python train_teacher.py --gpu 0 --imb_type exp --imb_factor 0.01 --loss_type BKD
 The code is partly based on [LDAM-DRW](https://github.com/kaidic/LDAM-DRW) and [Classifier-Balancing](https://github.com/facebookresearch/classifier-balancing).
 =======
 >>>>>>> master
+=======
+>>>>>>> ab51399a7187cb33a52e6e691fb26633548ce296
