@@ -2,9 +2,10 @@
 
 Implemention of 
 
-"Balanced Knowledge Distillation for Long-tailed Learning"
+"[Balanced Knowledge Distillation for Long-tailed Learning](http://arxiv.org/abs/2104.10510)"
 
 Shaoyu Zhang, Chen Chen, Xiyuan Hu and Silong Peng
+<<<<<<< HEAD
 
 ### Requirements 
 * Python 3
@@ -36,3 +37,5 @@ python train_teacher.py --gpu 0 --imb_type exp --imb_factor 0.01 --loss_type BKD
 
 ### Acknowledgement
 The code is partly based on [LDAM-DRW](https://github.com/kaidic/LDAM-DRW) and [Classifier-Balancing](https://github.com/facebookresearch/classifier-balancing).
+=======
+>>>>>>> master
